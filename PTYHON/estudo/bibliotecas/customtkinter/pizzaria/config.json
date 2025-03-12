@@ -1,0 +1,30 @@
+{
+    "tamanhos": {
+        "Broto": 2,
+        "Pequena": 3,
+        "Média": 4,
+        "Grande": 5,
+        "Avestruz": 6
+    },
+    "sabores": {
+        "Marguerita": 15,
+        "Calabresa": 18,
+        "Pepperoni": 20,
+        "Frango com Catupiry": 20,
+        "Quatro Queijos": 22,
+        "Napolitana": 19,
+        "Vegetariana": 17,
+        "Portuguesa": 21,
+        "Peperoni com Bacon": 23
+    },
+    "adicionais": {
+        "Coca-Cola 2L": 10,
+        "Pepsi 2L": 9,
+        "Fanta Laranja 2L": 8,
+        "Guaraná Antártica 2L": 9,
+        "Água Mineral 500ml": 3,
+        "Batata Frita": 12,
+        "Onion Rings": 10,
+        "Bacon": 6
+    }
+}
