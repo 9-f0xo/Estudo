@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>
+        Altere o tamanho da janela do seu navegador.
+    </p>
+    <picture>
+        <!-- A ORDEM IMPORTA -->
+        <source media="(max-width: 750px)" srcset="img/imagem-P.jpg" type="image/jpg">
+        <source media="(max-width: 1150px)" srcset="img/imagem-M.jpg" type="image/jpg">
+        <img src="img/imagem-G.jpg" alt="Imagem Grande">
+    </picture>
+
+    <h1>Reproduzir Áudio</h1>
+    <p>
+      O áudio se reproduz automáticamente. Se por acaso não for reproduzido, você pode checar as permissões do site.
+    </p>
+    <!-- ESSA É UMA DAS MANEIRAS DE SE INSERIR ÁUDIO NO SEU SITE:
+    <audio src="audio/Get_Some_O'Deez-Snot.mp3" controls autoplay> </audio> -->
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="audio/Get_Some_O'Deez-Snot.mp3" type="audio/mpeg">
+        <p>
+          Infelizmente seu navegador não consegue reproduzir esse áudio.<a href="audio/Get_Some_O'Deez-Snot.mp3" download="Get_Some_O'Deez-Snot.mp3" type="application/mpeg">Clique aqui para baixar o áudio.</a>
+        </p>
+    </audio>
+
+
+</body>
+</html>
