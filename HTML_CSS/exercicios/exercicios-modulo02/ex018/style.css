@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* 
+    id    = css: #
+    class = css: .
+*/
+
+body{
+    font: normal normal 1.2em Arial, Verdana, serif;
+    width: 700px;
+    margin: auto;
+    background-color: #A781FA;
+}
+
+h1{
+    color: #5E488B;
+}
+
+h1#h1-principal{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    background-color: #5E488B;
+    padding: 10px;
+}
+
+h2{
+    color: #fff;
+    background-color: #755AAD;
+    padding: 5px;
+    font-weight: normal;
+    margin-top: 26px;
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.basico{
+    background-color: #71ad5a;
+}
+
+.intermediario{
+    background-color: #ada05a;
+}
+
+.avancado{
+    background-color: #ad5a5a;
+}

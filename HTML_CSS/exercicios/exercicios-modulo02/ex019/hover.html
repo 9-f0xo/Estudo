@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > cite {
+            display: none;
+        }
+
+        div:hover > cite {
+            display: block;
+            background-color: red;
+            color: white;
+            width: 500px;
+            padding: 10px;
+        }
+
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo:</p>
+    <div>
+        Passe o mouse aqui!
+        <cite>Tem mais easter eggs do que a gente imaginava...</cite>
+    </div>
+</body>
+</html>
