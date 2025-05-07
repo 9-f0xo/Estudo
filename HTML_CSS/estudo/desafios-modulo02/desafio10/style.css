@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BebasKai';
+    src: url(fontes/BebasKai.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    background-color: #84e1ad;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+header{
+    color: white;
+    margin: 0;
+    background-image: linear-gradient(to bottom, #3cd983, #1a5c38);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header > h1{
+    font-size: 3em;
+    font-family: 'BebasKai', Courier, monospace;
+    font-weight: lighter;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+header > p{
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+header > nav{
+    text-align: left;
+    margin: 0;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 10px;
+    margin: 0;
+}
+
+main{
+    margin:0 auto;
+    width: 65%;
+    min-width: 400px;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 10px 10px;
+}
+
+section > p, div > p{
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+
+section > h1, section > h2{
+    font-family: 'android', Courier, monospace;
+    color: #115530;
+}
+
+section > h1{
+    font-size: 2.3em;
+    margin-bottom: 0;
+
+}
+
+section > h2{
+    background-image: linear-gradient(to right, #c7ecd7, white);
+    margin: 0;
+    padding: 3px 10px;
+}
+
+section > div{
+    background-color: #c5ebd6;
+    border-radius: 10px;
+}
+
+section > img{
+    display: block;
+    margin: 0 auto;
+}   
+
+picture > img{
+    display: block;
+    margin: 0 auto;
+}
+
+div > h2{
+    background-color: #2fa866;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    color: white;
+}
+
+div > p{
+    padding: 10px;
+}
+
+div > ul{
+    columns: 2;
+}
+
+#video{
+    background-color: #1a5c38;
+    padding: 20px 40px;
+}
+
+#video > iframe{
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 400px;
+    margin:0 auto;
+}
+
+li::before{
+    content: '\2714';
+}
+
+ul{
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+p > a, section > p > strong{
+    font-weight: bold;
+    color: #1a5c38;
+    text-decoration: none;
+}
+
+p > a::after{
+    content: ' \1F517';
+    font-size: 0.8em;
+}
+
+footer{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1a5c38;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0;
+}
+
+footer > p > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}   
+
+footer > p > a::after{
+    content: "";
+}
