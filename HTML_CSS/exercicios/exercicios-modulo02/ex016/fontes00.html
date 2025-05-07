@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            width: 700px;
+            margin: auto;
+
+            /* 
+            medidas absolutas:
+            cm, mm, in, px, pt, pc
+
+            medidas relativas:
+            em, ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+            */
+
+            font-size: 1em; /* Uma vez o tamanho normal da fonte*/
+        }
+
+        h1{
+            /* SHORTHAND:
+            FONT STYLE > FONT WEIGHT > FONT SIZE > FONT FAMILIY: */
+            font: italic bolder 2em 'Courier New', sans-serif;
+        }
+        h2{
+            font: bold 2em 'Courier New', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste, labore, incidunt facere eligendi minima sapiente non quas quisquam impedit soluta, reiciendis ea. Quasi, voluptate ex atque quas obcaecati cum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sint sit temporibus facilis dolorem voluptas atque, in animi magnam iste assumenda, fugit nemo consectetur aperiam fugiat incidunt id non maiores?</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium atque itaque sint dignissimos autem totam ipsa reprehenderit hic beatae aliquid! Alias amet, quidem omnis provident aut quo voluptas veniam delectus?</p>
+</body>
+</html>
