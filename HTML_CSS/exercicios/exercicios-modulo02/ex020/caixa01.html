@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: gray;
+            margin: 0;
+            font-size: 1.2em;
+        }
+        
+        header{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+
+        nav{
+            background-color: rgb(37, 37, 37);
+            padding: 5px;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+        }
+
+        a::after{
+            content: ' [link] ';
+            color: aquamarine;
+            font-size: 0.7em;
+        }
+
+        main{
+            width: 900px;
+            margin: 15px auto;
+            background-color: white;
+            padding: 10px;
+            border-radius: 0 10px;
+            box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+        }
+
+        article > aside{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        
+        article > p{
+            padding: 5px 10px;
+        }
+
+        aside > p{
+            margin: 0;
+        }
+
+        p{
+            text-indent: 16px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site irado</h1>
+    </header>
+    <nav>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+        <a href="#">Link 5</a>
+    </nav>
+        <main>
+            <section id="noticias">
+                <article>
+                    <h2>BRICS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, possimus debitis adipisci ex deserunt neque inventore eaque necessitatibus blanditiis eligendi, vitae soluta non quidem deleniti quos ullam expedita aliquid fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ipsa dolore a incidunt, magnam porro architecto perspiciatis suscipit quisquam quos! Vel eligendi blanditiis veniam adipisci ut odit enim eaque dolores.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque ratione aspernatur porro iste recusandae similique animi suscipit architecto? Consequatur saepe sit quos libero accusamus consequuntur delectus odit necessitatibus illo.</p>
+                    <aside>
+                        <p>Escrito por mim</p>
+                    </aside>
+                </article>
+                <article>
+                    <h2>Discord e Crimes Cibernéticos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, possimus debitis adipisci ex deserunt neque inventore eaque necessitatibus blanditiis eligendi, vitae soluta non quidem deleniti quos ullam expedita aliquid fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ipsa dolore a incidunt, magnam porro architecto perspiciatis suscipit quisquam quos! Vel eligendi blanditiis veniam adipisci ut odit enim eaque dolores.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque ratione aspernatur porro iste recusandae similique animi suscipit architecto? Consequatur saepe sit quos libero accusamus consequuntur delectus odit necessitatibus illo.</p>
+                    <aside>
+                        <p>Escrito por mim</p>
+                    </aside>
+                </article>
+                <article>
+                    <h2>Tik Tok banido nos EUA</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, possimus debitis adipisci ex deserunt neque inventore eaque necessitatibus blanditiis eligendi, vitae soluta non quidem deleniti quos ullam expedita aliquid fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id ipsa dolore a incidunt, magnam porro architecto perspiciatis suscipit quisquam quos! Vel eligendi blanditiis veniam adipisci ut odit enim eaque dolores.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque ratione aspernatur porro iste recusandae similique animi suscipit architecto? Consequatur saepe sit quos libero accusamus consequuntur delectus odit necessitatibus illo.</p>
+                    <aside>
+                        <p>Escrito por mim</p>
+                    </aside>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Desenvolvido por mim</p>
+        </footer>
+</body>
+</html>
