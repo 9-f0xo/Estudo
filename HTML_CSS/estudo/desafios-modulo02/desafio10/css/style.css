@@ -43,7 +43,7 @@ body{
     margin: 0;
     background-color: #84e1ad;
     font-family: var(--fonte-padrao);
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 header{
@@ -57,7 +57,7 @@ header{
 
 header > h1{
     font-size: 3em;
-    font-family: 'BebasKai', Courier, monospace;
+    font-family: var(--fonte-destaque);
     font-weight: lighter;
     text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.3);
 }
@@ -118,7 +118,7 @@ section > h2{
 }
 
 aside > div{
-    background-color: #c5ebd6;
+    background-color: var(--cor0);
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
@@ -135,7 +135,7 @@ img.imagem-pequena{
 }
 
 div > h3{
-    background-color: #2fa866;
+    background-color: var(--cor1);
     border-radius: 10px 10px 0 0;
     padding: 10px;
     color: white;
@@ -150,7 +150,7 @@ div > ul{
 }
 
 div.video{
-    background-color: #1a5c38;
+    background-color: var(--cor4);
     padding: 20px;
     padding-bottom: 57%;
     margin: 0 -20px 0 -20px;
@@ -176,7 +176,7 @@ ul{
 
 main  a, main strong{
     font-weight: bold;
-    color: #1a5c38;
+    color: var(--cor4);
     text-decoration: none;
 }
 
