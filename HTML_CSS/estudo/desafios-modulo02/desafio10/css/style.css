@@ -149,6 +149,12 @@ div > ul{
     columns: 2;
 }
 
+@media (min-width: 600px) {
+    div > ul {
+        columns: 2;
+    }
+}
+
 div.video{
     background-color: var(--cor4);
     padding: 20px;
