@@ -65,7 +65,8 @@ header > h1{
 header > p{
     text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.3);
     max-width: 500px;
-    margin: 0 auto 25px auto;
+    margin: 0 auto;
+    padding: 2em;
 }
 
 header > nav{
