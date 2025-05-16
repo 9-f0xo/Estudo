@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --fonte-destaque: 'Passion One', Impact, 'Arial Narrow Bold', sans-serif;
+    --fonte-cordel: 'Sriracha', 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    --fonte-normal: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/*HEADER----------------------------------*/
+
+header {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+
+    width: 100%;
+
+    background-color: black;
+    color: white;
+}
+
+header h1{
+    font-size: 10em;
+    padding-top: 50px;
+}
+
+header p{
+    font-family: var(--fonte-normal);
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*SECTIONS----------------------------------*/
+
+section p{
+    font-family: var(--fonte-cordel);
+    font-size: 3.5em;
+    line-height: 2em;
+    padding: 40px 30px;
+
+    min-width: 350px;
+    max-width: 550px;
+    margin-left: 20px;
+}
+
+section.fundo-personalizado p {
+    text-shadow: 1px 1px 0px black;
+    
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    box-shadow: 0px 0px -5px rgba(0, 0, 0, 0.5);
+}
+
+section.fundo-personalizado {
+    height: 110vh;
+    position: relative;
+
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section#joaninha{
+    background-image: url('/img/background001.jpg');
+}
+
+section#livros {
+    background-image: url('/img/background002.jpg');
+}
+
+/*FOOTER----------------------------------*/
+
+footer{
+    background-color: black;
+    font-family: var(--fonte-normal);
+    text-align: center;
+    color: white;
+
+    padding: 10px;
+}
