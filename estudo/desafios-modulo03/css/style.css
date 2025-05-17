@@ -5,7 +5,7 @@
 
 :root{
     --fonte-destaque: 'Passion One', Impact, 'Arial Narrow Bold', sans-serif;
-    --fonte-cordel: 'Sriracha', 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    --fonte-cordel: 'Sriracha', cursive;
     --fonte-normal: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -32,17 +32,18 @@ header {
     color: white;
 }
 
-header h1{
-    font-size: 10em;
+header > h1{
+    font-size: 10vw;
     padding-top: 50px;
+    font-variant: small-caps;
 }
 
-header p{
+header > p{
     font-family: var(--fonte-normal);
     padding-bottom: 50px;
 }
 
-a{
+header a, footer a{
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -54,46 +55,51 @@ a:hover{
 
 /*SECTIONS----------------------------------*/
 
-section p{
-    font-family: var(--fonte-cordel);
-    font-size: 3.5em;
-    line-height: 2em;
-    padding: 40px 30px;
+section {
+    font-size: 3.5vw;
+    padding: 20px;
+}
 
-    min-width: 350px;
-    max-width: 550px;
-    margin-left: 20px;
+section p{
+    padding: 1vh 1vw;
+    margin-bottom: 5vh;
+    font-family: var(--fonte-cordel);
+    line-height: 2em;
+
+    min-width: 300px;
+    max-width: 60vw;
 }
 
 section.fundo-personalizado p {
-    text-shadow: 1px 1px 0px black;
     
     position: absolute;
-
+    
     top: 50%;
     transform: translateY(-50%);
-
+    
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    box-shadow: 0px 0px -5px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px black;
 }
 
 section.fundo-personalizado {
-    height: 110vh;
+    height: 100vh;
     position: relative;
 
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+
+    box-shadow: inset 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
 }
 
 section#joaninha{
-    background-image: url('/img/background001.jpg');
+    background-image: url('../img/background001.jpg');
 }
 
 section#livros {
-    background-image: url('/img/background002.jpg');
+    background-image: url('../img/background002.jpg');
 }
 
 /*FOOTER----------------------------------*/
